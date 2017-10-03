@@ -4,25 +4,29 @@ import 'bulma/css/bulma.css'
 const studentjobs = {
 	title: "Student Jobs Finder",
 	content: "Allows students to locate which lunch clean up job they have",
-	link: "https://cws-student-jobs.surge.sh"
+	link: "https://cws-student-jobs.surge.sh",
+	source: "http://github.com/kevin-fang/student-jobs-finder"
 }
 
 const cwsgooglecal = {
 	title: "CWS Google Scheduler",
 	content: "Allows students to schedule their classes on Google Calendar",
-	link: "https://kevin-fang.github.io/cws-google-calendar"
+	link: "https://kevin-fang.github.io/cws-google-calendar",
+	source: "https://github.com/kevin-fang/cws-google-calendar"
 }
 
 const convertr = {
 	title: "Convertr for Crypto",
 	content: "Converts the value of cryptocurrencies to other cryptocurrencies/fiat",
-	link: "https://kevin-fang.github.io/crypto-calc"
+	link: "https://kevin-fang.github.io/crypto-calc",
+	source: "https://github.com/kevin-fang/crypto-calc"
 }
 
 const cwschronicle = {
 	title: "CWS Chronicle Site",
 	content: "Currently in progress: a website for the school newspaper",
-	link: "https://github.com/kevin-fang/cws-chronicle"
+	override: "Coming Soon!",
+	source: "https://github.com/kevin-fang/cws-chronicle"
 }
 
 const projects = [studentjobs, cwsgooglecal, convertr, cwschronicle]
@@ -40,8 +44,11 @@ export default class Introduction extends React.Component {
 						{project.content}
 					</div>
 				</div>
-				<footer class='card-footer has-text-cnetered'>
-					<a href={project.link} target='_blank' style={{margin: 12}}>Visit</a>
+				<footer class='card-footer has-text-centered'>
+					{ project.link ? <a href={project.link} target='_blank' style={{margin: 12}}>Visit</a>
+					 : <a style={{margin: 12}}>{project.override}</a>}
+					 
+					<a href={project.source} target='_blank' style={{margin: 12}}>Source</a>
 				</footer>
 			</div>
 		)
