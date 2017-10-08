@@ -18,8 +18,8 @@ const cwsgooglecal = {
 const convertr = {
 	title: "Convertr for Crypto",
 	content: "Converts the value of cryptocurrencies to other cryptocurrencies/fiat",
-	link: "https://kevin-fang.github.io/crypto-calc",
-	source: "https://github.com/kevin-fang/crypto-calc"
+	link: "https://kevin-fang.github.io/convertr-for-crypto",
+	source: "https://github.com/kevin-fang/convertr-for-crypto"
 }
 
 const cwschronicle = {
