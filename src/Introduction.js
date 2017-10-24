@@ -89,7 +89,7 @@ export default class Introduction extends React.Component {
 						support vector machines to locate specific single nucleotide 
 						polymorphisms responsible for phenotypic expression.
 						<br/>
-						<a href="https://doi.org/10.5281/zenodo.844927"> <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.844927.svg" alt="DOI"/> </a>
+						<a href="https://doi.org/10.5281/zenodo.1035491"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1035491.svg" alt="DOI"/></a>
 						<a href="https://doi.org/10.5281/zenodo.843580"> <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.843580.svg" alt="DOI"/> </a>
 						<br/><br/>
 
